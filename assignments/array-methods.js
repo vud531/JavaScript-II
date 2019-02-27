@@ -105,7 +105,7 @@ const biggestDonationRunner = (runners.reduce((max, currentRuner) => {
         return currentRuner;
     }
 }, runners[0]));
-console.log("Biggest Donation:", biggestDonationRunner);
+console.log("Biggest Donator:", biggestDonationRunner);
 
 // Problem 3
 const countedSizes = (runners.reduce((allSizes, runner) => {
